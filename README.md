@@ -1,2 +1,3 @@
-# prelims
-In-assessment Quicklinks for the open-book and online Preliminary assessment block
+# Preliminary Quicklinks
+
+Helping Adrian to reach his notes, material and references quicker during the open-book & online Preliminary assessment.
