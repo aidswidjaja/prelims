@@ -1,0 +1,44 @@
+body {
+    margin: 30px;
+}
+
+.navbar {
+    height: 50px;
+}
+
+#clockbox {
+    font-size: 25px;
+}
+
+.statsbox {
+    text-align: center;
+    margin: auto;
+}
+
+.statswrapper {
+    background-color: #C2C2C2;
+}
+
+.pingbox {
+    line-height: 5px;
+}
+
+.gallery-img {
+    display: block;
+    max-width:1000px;
+    max-height:1000px;
+    width: auto;
+    height: auto;
+}
+
+.chemistry-spontaneous {
+    display: block;
+    max-width:500px;
+    max-height:500px;
+    width: auto;
+    height: auto;
+}
+
+p {
+    font-weight: normal;
+}
