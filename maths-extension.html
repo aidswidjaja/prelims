@@ -1,0 +1,155 @@
+<strong>
+    <!doctype html>
+    <html class="no-js" lang="en-AU">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Maths Extension 1 | Prelims</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="favicon.png">
+        <link rel="icon" type="image/png" href="favicon.png" />
+
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic">
+        <link rel="stylesheet" href="res/style.css">
+        <script type="text/javascript" id="MathJax-script" async
+            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+            </script>
+        <script src="https://cdn.jsdelivr.net/gh/alfg/ping.js@0.2.2/dist/ping.min.js" type="text/javascript"></script>
+        <meta name="theme-color" content="#fafafa">
+    </head>
+
+    <body>
+
+        <nav>
+            <a href="/" class="brand">
+                <span>Prelims Reference</span>
+            </a>
+
+            <!-- responsive-->
+            <input id="bmenub" type="checkbox" class="show">
+            <label for="bmenub" class="burger pseudo button">Menu</label>
+
+            <div class="menu">
+                <a href="chemistry" class="pseudo button">Chemistry</a>
+                <a href="english" class="pseudo button">English</a>
+                <a href="economics" class="pseudo button">Economics</a>
+                <a href="maths-advanced" class="pseudo button">Maths Advanced</a>
+                <a href="maths-extension" class="button">Maths Extension 1</a>
+                <a href="modern-history" class="pseudo button">Modern History</a>
+            </div>
+        </nav>
+        <div class="navbar"></div>
+
+
+        <div class="flex two statswrapper">
+            <article class="statsbox">
+                <header>
+                    <p><div id="clockbox"></div></p>
+                    <script src="res/clockbox.js"></script>
+                </header>
+            </article>
+            <article class="statsbox pingbox">
+                <header>
+                    <div>
+                        <p><strong>ping teams.microsoft.com <span id="ping-teams"></span></strong></p>
+                        <p><strong>ping canvas.instructure.com <span id="ping-canvas"></span></p>
+                        <p style="font-size: 12px;">*pings every 30 secs</p>
+                        <script src="res/ping.js"></script>
+                    </div>
+                </header>
+            </article>
+        </div>
+
+
+        <h1>Maths Extension 1</h1>
+        <a target="_blank" href="https://desmos.com/calculator" class="button">Desmos</a>
+        <hr>
+        <article class="card">
+            <header>
+                <h3>Combinatorics</h3>
+            </header>
+            <footer>
+                <table class="success">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Formula</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Combinations - unordered</td>
+                            <td>$$^{n}C_{r} = \frac{n!}{(n-r)!r!}$$</td>
+                        </tr>
+                        <tr>
+                            <td>Permutations - ordered</td>
+                            <td>$$^{n}P_{r} = \frac{n!}{(n-r)!}$$</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </footer>
+        </article>
+                <article class="card">
+            <header>
+                <h3>Binomials</h3>
+            </header>
+            <footer>
+                <table class="primary">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Formula</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Friendly general form</td>
+                            <td>$$(x+y)^n = {}^{n}C_{0} \cdot x^{n}y^{0} + {}^{n}C_{1} \cdot x^{n-1}y^{1} + {}^{n}C_{2} \cdot x^{n-2}y^{2} ... {}^{n}C_{n-1} \cdot x^{1}y^{n-1} + {}^{n}C_{n} \cdot x^{0}y^{n}$$</td>
+                        </tr>
+                        <tr>
+                            <td>Sigma notation</td>
+                            <td>$$\sum_{r=0}^{n} {}^{n}C_{r}x^{n-r}y^{r}$$</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a target="_blank" href="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Pascal_triangle.svg/588px-Pascal_triangle.svg.png" class="button">Pascal's triangle</a>
+            </footer>
+        </article>
+        <article class="card">
+            <header>
+                <h3>Derivatives and calculus</h3>
+            </header>
+            <footer>
+                <table class="error">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Formula</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Chain Rule</td>
+                            <td>$$\frac{dy}{dx} = \frac{dy}{du} \times \frac{du}{dx}$$</td>
+                        </tr>
+                        <tr>
+                            <td>Product Rule</td>
+                            <td>$$\frac{dy}{dx} = vu' + uv'$$</td>
+                        </tr>
+                        <tr>
+                            <td>Quotient rule</td>
+                            <td>$$\frac{dy}{dx} = \frac {vu' - uv'}{v^2}$$</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </footer>
+        </article>
+
+
+    </body>
+
+    </html>
+</strong>
